@@ -7,7 +7,7 @@ The sample code included in this repository is largely extracted from http://www
 
 The sample data used in the demonstration is obtained from http://people.sc.fsu.edu/~jburkardt/data/png/png.html
 
-The following procedures are for Ubuntu 16.04 with Docker 17.12.0-ce
+The following procedures are for Ubuntu 16.04 with Docker 17.12.0-ce installed
 
 In the terminal:
 ```
