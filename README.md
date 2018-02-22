@@ -13,9 +13,11 @@ In the terminal:
 ```
 sudo chmod u+x PyCS_build.sh
 sudo chmod u+x PyCS_X11.sh 
-#Create image ubuntu_py_comp_sense
+
+#Create a docker image ubuntu_py_comp_sense
 ./PyCS_build.sh 
-#Create a container PyCS using the image ubuntu_py_comp_sense
+
+#Create a container PyCS using the docker image ubuntu_py_comp_sense
 ./PyCS_X11.sh 
 ```
 Inside the container PyCS:
