@@ -18,7 +18,7 @@ sudo chmod u+x PyCS_X11.sh #Creat the container
 ./PyCS_X11.sh
 ```
 
-Inside the container PyCS
+Inside the container PyCS:
 ```
 python3 CS_Original_2D_png.py
 
