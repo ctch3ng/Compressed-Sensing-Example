@@ -11,17 +11,15 @@ The following procedures are for Ubuntu 16.04 with Docker 17.12.0-ce
 
 In the terminal:
 ```
-sudo chmod u+x PyCS_build.sh #Create the image
-sudo chmod u+x PyCS_X11.sh #Creat the container
-
-./PyCS_build.sh
-./PyCS_X11.sh
+sudo chmod u+x PyCS_build.sh
+sudo chmod u+x PyCS_X11.sh 
+#Create image ubuntu_py_comp_sense
+./PyCS_build.sh 
+#Create a container PyCS using the image ubuntu_py_comp_sense
+./PyCS_X11.sh 
 ```
-
 Inside the container PyCS:
 ```
 python3 CS_Original_2D_png.py
-
 ```
-
 To terminate, close all the pop-up figures and type ```exit```
