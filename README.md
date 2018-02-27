@@ -37,7 +37,7 @@ sudo chmod u+x PyCS_X11.sh
 ./PyCS_XQuartz.sh 
 ```
 
-**Inside the container,** to run the example,
+**In the container,** to run the example,
 ```
 python3 CS_Original_2D_png.py
 ```
