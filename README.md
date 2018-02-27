@@ -23,7 +23,7 @@ sudo chmod u+x PyCS_X11.sh
 
 **The following procedures are for macOS 10.13.2 with Docker 17.12.0-ce and XQuartz installed**
 
-XQuartz: Preferences -> Security -> (Check) Allow connections from network clients
+[XQuartz](https://www.xquartz.org/): Preferences -> Security -> (Check) Allow connections from network clients
 
 In the terminal:
 ```
