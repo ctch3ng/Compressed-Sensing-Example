@@ -28,7 +28,7 @@ XQuartz: Preferences -> Security -> (Check) Allow connections from network clien
 In the terminal:
 ```
 sudo chmod u+x PyCS_build.sh
-sudo chmod u+x PyCS_X11.sh 
+sudo chmod u+x PyCS_XQuartz.sh 
 
 #Create a docker image ubuntu_py_comp_sense
 ./PyCS_build.sh 
