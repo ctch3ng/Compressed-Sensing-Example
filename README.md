@@ -7,7 +7,7 @@ The sample code included in this repository is largely extracted from http://www
 
 The sample data used in the demonstration is obtained from http://people.sc.fsu.edu/~jburkardt/data/png/png.html
 
-The following procedures are for Ubuntu 16.04 with Docker 17.12.0-ce installed
+**The following procedures are for Ubuntu 16.04 with Docker 17.12.0-ce installed**
 
 In the terminal:
 ```
@@ -20,7 +20,24 @@ sudo chmod u+x PyCS_X11.sh
 #Create a container PyCS using the docker image ubuntu_py_comp_sense
 ./PyCS_X11.sh 
 ```
-Inside the container PyCS:
+
+**The following procedures are for macOS 10.13.2 with Docker 17.12.0-ce and XQuartz installed**
+
+XQuartz: Preferences -> Security -> (Check) Allow connections from network clients
+
+In the terminal:
+```
+sudo chmod u+x PyCS_build.sh
+sudo chmod u+x PyCS_X11.sh 
+
+#Create a docker image ubuntu_py_comp_sense
+./PyCS_build.sh 
+
+#Create a container PyCS using the docker image ubuntu_py_comp_sense
+./PyCS_XQuartz.sh 
+```
+
+**Inside the container,** to run the example,
 ```
 python3 CS_Original_2D_png.py
 ```
